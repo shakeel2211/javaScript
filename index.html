@@ -1,16 +1,26 @@
 
-<!-- Lecture no 14 if else statment-->
+<!-- Lecture no 15 if else statment-->
 
 <html>
     <head>
         <title> javaScript</title>
         <script>
-            var a = 15;
-            if( a > 30 ){
-                document.write("a is a Greater");
+           
+            var percentage = 55 ;
+            if(percentage >= 80 && percentage <= 100) {
+                document.write("You are in merit");
+            }else  if(percentage > 60 && percentage < 80) {
+                document.write("You are in 1st position");
+            }else  if(percentage > 40 && percentage < 60) {
+                document.write("You  are in 2nd position");
+            }else  if(percentage > 33 && percentage < 45) {
+                document.write("You are in 3rd postion");
+            }else  if(percentage < 33 ) {
+                document.write("You are fail");
             }else{
-                document.write("a is a Smaller");
+                document.write("please enter the valid");
             }
+
         </script>
          </head>
         <body>
